@@ -13,7 +13,8 @@ Random forrest classifier precision: 0.893516
 Random forrest classifier recall: 0.896427 
 Random forrest classifier f1_score: 0.894969
 ```
-![image](https://user-images.githubusercontent.com/41350819/117528419-07214a00-af87-11eb-9e9f-51f42d50a94e.png)
+![image](https://user-images.githubusercontent.com/41350819/117528700-5320be80-af88-11eb-927b-db32ff56dc1f.png)
+
 
 
 ## BERT + DNN Model

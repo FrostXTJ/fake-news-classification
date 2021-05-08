@@ -5,15 +5,16 @@ The goal of this project is to leverage machine learning models to make fast and
 ## Random Forest Model
 I use TF-IDF algorithm for text vectorization. Here is the performance of the Random Forest model:
 ```
-Training Time (in seconds) = 0.366178 
-Testing Time (in seconds) = 0.029793 
+Training Time (in seconds) = 0.371672 
+Testing Time (in seconds) = 0.049181 
 =============Evaluation Result============== 
-Random forrest classifier accuracy: 0.882684 
-Random forrest classifier precision: 0.872125 
-Random forrest classifier recall: 0.884019 
-Random forrest classifier f1_score: 0.878032
+Random forrest classifier accuracy: 0.899332 
+Random forrest classifier precision: 0.893516 
+Random forrest classifier recall: 0.896427 
+Random forrest classifier f1_score: 0.894969
 ```
-![image](https://user-images.githubusercontent.com/41350819/117400040-b04c3f80-aeb6-11eb-982a-0f10fb48d163.png)
+![image](https://user-images.githubusercontent.com/41350819/117528419-07214a00-af87-11eb-9e9f-51f42d50a94e.png)
+
 
 ## BERT + DNN Model
 I use BertTokenizer for word tokenization. The design of the Dense Neural Network looks like:
@@ -21,12 +22,16 @@ I use BertTokenizer for word tokenization. The design of the Dense Neural Networ
 
 Here is the performance of the BERT + DNN Model:
 ```
-Training Time (in minutes) = 16.584202
-Testing Time (in minutes) = 10.621744
-===============Evaluation End=============== 
-BERT classifier accuracy: 0.947272 
-BERT classifier precision: 0.983650 
-BERT classifier recall: 0.904651 
-BERT classifier f1_core: 0.942498
+Training Time (in minutes) = 41.600925
+Testing Time (in minutes) = 11.135320
+===============Evaluation End===============
+BERT classifier accuracy: 0.962918 
+BERT classifier precision: 0.958473 
+BERT classifier recall: 0.964273 
+BERT classifier f1_score: 0.961364
 ```
-![image](https://user-images.githubusercontent.com/41350819/117400172-f1dcea80-aeb6-11eb-8d40-d4b37c97d875.png)
+![image](https://user-images.githubusercontent.com/41350819/117528435-1dc7a100-af87-11eb-89c1-5f9e1b2e6423.png)
+
+## Model Comparison
+![image](https://user-images.githubusercontent.com/41350819/117528447-2a4bf980-af87-11eb-8bb1-04bc09f9277f.png)
+
